@@ -111,7 +111,7 @@ _url_for()_ helper function.
 _url_for()_ generates URLs from the information stored in application's URL map.
 
 ```python
-url_for("index", _external=True)  # Relative path - usage in application
+url_for("index", _external=False)  # Relative path - usage in application
 url_for("index", _external=True)  # Absolute path - usage in email
 ```
 
